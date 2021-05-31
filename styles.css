@@ -218,7 +218,7 @@ width: 200px;
   }
 
 }
-@media (max-width:650px) {
+@media (max-width:900px) {
   .coursera-doc button
   {
     width: 45vh;
