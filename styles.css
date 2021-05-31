@@ -77,9 +77,6 @@ margin: 20px auto 0 auto;
   font-size: 3rem;
   color:#feffde;
 }
-.top-image:hover{
-  background-color: red;
-}
 .top-image{
   height: 70vh;
   background-image: url(shimla.jpg);
