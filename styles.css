@@ -1,0 +1,237 @@
+                                    /*html elements*/
+body{
+margin: 0;
+padding: 0;
+  background-color:#28527a;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+
+}
+p{font-size: 1.2rem;
+  margin: 20px;
+  text-align: left;
+ color:#d3e0ea;
+  opacity: 50%;
+}
+h1, h3, h5{
+  text-align: center;
+  letter-spacing: 15px;
+  color:#f3dfe3;
+  margin-top:20px;
+  font-size: 5rem;
+}
+hr{
+  margin: 100px;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-radius: 100%;
+}
+                                       /*html elements end*/
+.container-fluid{
+  padding: 0;
+}
+                                         /*nav bar*/
+#colo-bg{
+
+  padding: 20px;
+}
+.navbar{
+  padding: 30px;
+}
+.navbar-brand{
+  padding: 4px;
+ margin-left: 50px;
+  font-size: 1.4rem;
+}
+.navbar-nav{
+  margin-left:150px;
+}
+.nav-link:hover{
+  border-radius: 10%;
+  background-color:#856c8b;
+}
+
+.nav-item{
+  font-size: 0.8rem;
+  padding-left: 70px;
+}
+                                        /*nav bar END*/
+
+                                         /*About section*/
+.top-heading{
+  padding: 230px 0 100px 0;
+
+  text-align: center;
+}
+.top-heading h6{
+  opacity: 50%;
+  color: #fff;
+  width: 50%;
+
+margin: 20px auto 0 auto;
+
+}
+
+.top-image h3{
+  padding: 50px 0 50px 0;
+  font-size: 3rem;
+  color:#feffde;
+}
+.top-image:hover{
+  background-color: red;
+}
+.top-image{
+  height: 70vh;
+  background-image: url(shimla.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-radius: 15%;
+
+}                                                     /*About section*/
+
+                                                    /*Skills section*/
+.mid-row{
+  margin-top:150px;
+}
+.middle-container h1{
+  font-size: 3rem;
+}
+.middle-container{
+  text-align: center;
+}
+.middle-container img{
+  margin: 20px;
+  width:140px;
+}
+.mid-end{
+  text-align: center;
+  background-image:url(midback.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 220vh;
+  padding: 100px;
+}
+.mid-end h1{
+  color: black;
+  text-align: left;
+}
+                                                  /*Skills section*/
+
+
+                                                  /*Courses*/
+.btn-outline-secondary:hover{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px; 20px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.3s;
+  color:#233e8b;
+}
+.btn-outline-secondary{
+margin: 10px;
+}
+.coursera-doc button{
+  width: 80vh;
+}
+.coursera-doc img{
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+}
+                                                       /*Courses END*/
+
+
+
+                                                       /*Contact*/
+.contact-me{
+  width: 50%;
+}
+.contact-me button{
+  margin: 20px;
+  background-color: #fdfaf6;
+  color:#005792;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.contact-me h2
+{
+  color:#fdfaf6;
+  text-align: center;
+  margin: 50px;
+}
+.lastc{
+  margin: 20px;
+}
+                                                   /*Contact End*/
+
+.address{
+
+  padding: 50px;
+  text-align: center;
+    background-color: #fdfaf6;
+}
+.address  a
+{
+  padding:7px;
+  color: #a7bbc7;
+  font-size: 1rem;
+}
+.address  a:hover{
+  color:#334443;
+}
+.d{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.button-resume{
+
+}
+.f{
+width: 200px;
+  border-color: #fdfaf6;
+  background-color: #fdfaf6;
+
+
+  }
+  .f:hover{
+    cursor: pointer;
+    padding: 10px; 20px;
+    border-color: #3498db;
+    width: 300px;
+
+    margin: 20px;
+    transition: 0.5s;
+    background-color:#005f99;
+    }                                         /*Media query for all*/
+@media (max-width:1300px){
+  .abc{
+    padding: 0px;
+    padding-left: 20px;
+  }
+
+}
+@media (max-width:750px) {
+  .coursera-doc button
+  {
+    width: 45vh;
+  }
+  .mid-end h1{
+    letter-spacing:0.5;
+    font-size: 2rem;
+  }
+  .contact-me{
+    width: 100%;
+  }
+  .d{
+
+    width: 100%;
+  }
+}
